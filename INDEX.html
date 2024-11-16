@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="https://respinix.com/wp-content/uploads/2024/06/vavada-casino-logo.webp" alt="Logo Aviator" class="logo">
+            <h1>Aviator</h1>
+            <p>10% Cashback + 100 FPS + 100% depozytu<br/><br/>Jeszcze jeden krok...<br/>Proszę zakończyć weryfikację bezpieczeństwa!</p>
+            <div class="captcha-container">
+                <button class="cta-button" onclick="startCaptcha()">Nie jestem robotem</button>
+                <div class="captcha-verification">
+                    <div class="loading-spinner" id="loading-spinner"></div>
+                    <div class="checkmark" id="checkmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                            <path class="checkmark__check" fill="none" d="M14 27l8 8 16-16"/>
+                        </svg>
+                    </div>
+                </div>
+                <p id="success-message" class="success-message"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
